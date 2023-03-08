@@ -4,7 +4,9 @@
 * */
 package w23.lecture2.ex1;
 
-import java.awt.Rectangle;
+//import java.awt.Rectangle;
+
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args){
@@ -58,6 +60,14 @@ public class Main {
         Rectangle rect5=rect1;
         rect1.setLocation(100,200);
 
+
+        Rectangle box = new Rectangle(5, 10, 20, 30);
+        System.out.println("Before: " + box.getX());
+        box.translate(-3, 40);
+        System.out.println("After: " + box.getX());
+
+
+        int num1=10;// primitive data type.  It has no methods (not an object)
 
     }
 

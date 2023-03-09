@@ -63,7 +63,7 @@ public class CashRegister
    */
    public double giveChange()
    {   
-      double change = payment - purchase - get;
+      double change = payment - purchase - getSalesTax();
       purchase = 0;
       payment = 0;
       return change;

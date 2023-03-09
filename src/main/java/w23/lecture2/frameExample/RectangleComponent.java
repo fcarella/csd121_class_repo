@@ -22,5 +22,10 @@ public class RectangleComponent extends JComponent
 
       // Draw moved rectangle
       g2.draw(box);
+
+      g2.setColor(Color.RED);
+      Rectangle r2=new Rectangle(0, 0, 200, 200);
+      g2.fill(r2);
+
    }
 }

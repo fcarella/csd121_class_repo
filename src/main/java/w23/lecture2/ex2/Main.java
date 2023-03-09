@@ -1,4 +1,4 @@
-package w23.lexture2.ex2;
+package w23.lecture2.ex2;
 
 import java.awt.*;
 

@@ -3,7 +3,7 @@ package w23.lecture3;
 public class BankManager {
     public static void main(String[] args) {
         BankAccount joesAccount=new BankAccount();
-        BankAccount stephsAccount=new BankAccount();
+        BankAccount stephsAccount=new BankAccount(4000);
         joesAccount.deposit(1000);
         stephsAccount.deposit(2000);
         joesAccount.withdraw(100);

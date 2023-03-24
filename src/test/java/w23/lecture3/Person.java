@@ -6,24 +6,33 @@ public class Person {
     private String lastname;
     private int age;
 
+    // private class variable (static makes it a class variable) called COUNT
+    private static int COUNT;
+
     public Person() {
         // default no argument constructor
         firstname="no firstname set";
         lastname="no lastname set";
         age=0;
+        COUNT++;
     }
 
     public Person(String firstname, String lastname, int age) {
+        int height=150;
+
         this.firstname = firstname;
         this.lastname = lastname;
         this.age = age;
+        COUNT++;
     }
     public Person(String firstname) {
         this.firstname = firstname;
     }
+    public Person(int age) {
+        this.age = age;
+        COUNT++;
+    }
 
-    // private class variable (static makes it a class variable) called COUNT
-    private static int COUNT;
 
     public String getFirstName(){
         return firstname;

@@ -34,5 +34,10 @@ public class MainPerson {
 
         Person george=new Person("George", "washington", 45);
         Person justin=new Person("George");
+        Person justin2=new Person(30);
+
+
+        System.out.println("There are "+Person.getCOUNT()+" people that have been created");
+
     }
 }

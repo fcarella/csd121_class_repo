@@ -1,3 +1,6 @@
+/**
+ * This is the BankAcccount class for lecture 3
+ */
 package w23.lecture3;
 
 public class BankAccount {

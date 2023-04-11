@@ -5,4 +5,13 @@ public class Constants {
     static final double DIME_VALUE = 0.1;
     static final double NICKEL_VALUE = 0.05;
     static final double PENNY_VALUE = 0.01;
+
+    static int getSerialNumber(){
+        return 1234;
+    }
+
+    public String getISBN(){
+        return "1234";
+    }
+
 }

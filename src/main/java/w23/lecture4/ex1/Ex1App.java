@@ -92,6 +92,9 @@ public class Ex1App {
         double change=Constants.QUARTER_VALUE;
         double dime=Constants.DIME_VALUE;
 
+        int sn=Constants.getSerialNumber();
+//        String isbn=Constants.getISBN();
+
 
     }
 }

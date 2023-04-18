@@ -28,5 +28,14 @@ public class App {
         Scanner in=new Scanner(System.in);
         System.out.print("Please enter the unit price: ");
         double unitPrice = in.nextInt();
+
+        String number="10";
+        int one=1;
+
+        System.out.println("Num="+number); // 10
+        System.out.println("Num="+number+one); // 101
+        System.out.println("Num="+(Integer.parseInt(number)+one)); // 101
+
+        System.out.println("Name=\n\n\n\n\"Fred\"");
     }
 }

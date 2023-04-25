@@ -1,3 +1,6 @@
+
+import w23.textbook.ch06.Picture;
+
 public class BorderMaker
 {
    public static void main(String[] args)

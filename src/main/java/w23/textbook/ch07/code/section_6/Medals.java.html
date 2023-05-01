@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1347.57">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; color: #0073ff; -webkit-text-stroke: #0073ff; background-color: #ededed}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0073ff; -webkit-text-stroke: #0073ff; background-color: #ededed}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; color: #cc0066; -webkit-text-stroke: #cc0066; background-color: #ededed}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; color: #0073ff; -webkit-text-stroke: #0073ff}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; -webkit-text-stroke: #000000}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; color: #32e598; -webkit-text-stroke: #32e598}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0073ff; -webkit-text-stroke: #0073ff}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s3 {font: 12.0px Courier; font-kerning: none}
+    span.s4 {font: 12.0px Courier; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s5 {font-kerning: none; color: #0073ff; -webkit-text-stroke: 0px #0073ff}
+    span.s6 {font-kerning: none; color: #0073ff; background-color: #ededed; -webkit-text-stroke: 0px #0073ff}
+    span.s7 {font-kerning: none; color: #cc0066; -webkit-text-stroke: 0px #cc0066}
+    span.s8 {font-kerning: none; background-color: #ededed}
+    span.s9 {font-kerning: none; color: #66ff19; -webkit-text-stroke: 0px #66ff19}
+    span.s10 {font-kerning: none; color: #32e598; -webkit-text-stroke: 0px #32e598}
+    span.s11 {font-kerning: none; color: #66f919; -webkit-text-stroke: 0px #66f919}
+    span.s12 {font: 12.0px Courier; font-kerning: none; background-color: #ededed}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><b><span class="Apple-converted-space">  </span>1<span class="Apple-converted-space">  </span></b></span><span class="s2">/**</span></p>
+<p class="p2"><span class="s3"><b><span class="Apple-converted-space">  </span>2 <span class="Apple-converted-space"> </span></b></span><span class="s4"> <span class="Apple-converted-space">  </span></span><span class="s1">This program prints a table of medal winner counts with row totals.</span></p>
+<p class="p1"><span class="s1"><b><span class="Apple-converted-space">  </span>3<span class="Apple-converted-space">  </span></b></span><span class="s2">*/</span></p>
+<p class="p3"><span class="s5"><b><span class="Apple-converted-space">  </span>4<span class="Apple-converted-space">  </span></b></span><span class="s1">public</span><span class="s2"> </span><span class="s1">class</span><span class="s2"> Medals</span></p>
+<p class="p1"><span class="s1"><b><span class="Apple-converted-space">  </span>5<span class="Apple-converted-space">  </span></b></span><span class="s2">{</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space">  </span>6 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">  </span></span><span class="s7">public</span><span class="s1"> </span><span class="s7">static</span><span class="s1"> </span><span class="s7">void</span><span class="s1"> main(String[] args)</span></p>
+<p class="p5"><span class="s8"><b><span class="Apple-converted-space">  </span>7 <span class="Apple-converted-space"> </span></b></span><span class="s2"> <span class="Apple-converted-space">  </span>{</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space">  </span>8<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s7">final</span><span class="s1"> </span><span class="s7">int</span><span class="s1"> COUNTRIES = </span><span class="s9">8</span><span class="s1">;</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space">  </span>9<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s7">final</span><span class="s1"> </span><span class="s7">int</span><span class="s1"> MEDALS = </span><span class="s9">3</span><span class="s1">;</span></p>
+<p class="p5"><span class="s8"><b><span class="Apple-converted-space"> </span>10 <span class="Apple-converted-space"> </span></b></span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>11<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">      </span>String[] countries =</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>12 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>{</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>13<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s10">"Canada"</span><span class="s1">,</span></p>
+<p class="p6"><span class="s6"><b><span class="Apple-converted-space"> </span>14<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s10">"Italy"</span><span class="s1">,</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>15<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s10">"Germany"</span><span class="s1">,</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>16<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s10">"Japan"</span><span class="s1">,</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>17<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s10">"Kazakhstan"</span><span class="s1">,</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>18<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s10">"Russia"</span><span class="s1">,</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>19<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s10">"South Korea"</span><span class="s1">,</span></p>
+<p class="p7"><span class="s6"><b><span class="Apple-converted-space"> </span>20<span class="Apple-converted-space">  </span></b></span><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s1">"United States"</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>21 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>};</span></p>
+<p class="p5"><span class="s8"><b><span class="Apple-converted-space"> </span>22 <span class="Apple-converted-space"> </span></b></span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>23<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s7">int</span><span class="s1">[][] counts =</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>24 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>{</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>25<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s9">0</span><span class="s1">, </span><span class="s9">3</span><span class="s1">, </span><span class="s9">0</span><span class="s1"> },</span></p>
+<p class="p6"><span class="s6"><b><span class="Apple-converted-space"> </span>26<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s11">0</span><span class="s1">, </span><span class="s11">0</span><span class="s1">, </span><span class="s11">1</span><span class="s1"> },</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>27<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s9">0</span><span class="s1">, </span><span class="s9">0</span><span class="s1">, </span><span class="s9">1</span><span class="s1"> },</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>28<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s9">1</span><span class="s1">, </span><span class="s9">0</span><span class="s1">, </span><span class="s9">0</span><span class="s1"> },</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>29<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s9">0</span><span class="s1">, </span><span class="s9">0</span><span class="s1">, </span><span class="s9">1</span><span class="s1"> },</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>30<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s9">0</span><span class="s1">, </span><span class="s9">1</span><span class="s1">, </span><span class="s9">0</span><span class="s1"> },</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>31<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s9">0</span><span class="s1">, </span><span class="s9">1</span><span class="s1">, </span><span class="s9">0</span><span class="s1"> },</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>32<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>{ </span><span class="s9">1</span><span class="s1">, </span><span class="s9">0</span><span class="s1">, </span><span class="s9">1</span><span class="s1"> }</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>33 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>};</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>34 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">     </span></span></p>
+<p class="p7"><span class="s6"><b><span class="Apple-converted-space"> </span>35<span class="Apple-converted-space">  </span></b></span><span class="s2"><span class="Apple-converted-space">      </span>System.out.println(</span><span class="s1">"<span class="Apple-converted-space">        </span>Country<span class="Apple-converted-space">    </span>Gold<span class="Apple-converted-space">  </span>Silver<span class="Apple-converted-space">  </span>Bronze <span class="Apple-converted-space">  </span>Total"</span><span class="s2">);</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>36 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">     </span></span></p>
+<p class="p8"><span class="s12"><b><span class="Apple-converted-space"> </span>37<span class="Apple-converted-space">  </span></b></span><span class="s4"><span class="Apple-converted-space">      </span>//</span><span class="s1"> Print countries, counts, and row totals</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>38<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s7">for</span><span class="s1"> (</span><span class="s7">int</span><span class="s1"> i = </span><span class="s9">0</span><span class="s1">; i &lt; COUNTRIES; i++)</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>39<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">      </span>{</span></p>
+<p class="p8"><span class="s12"><b><span class="Apple-converted-space"> </span>40 <span class="Apple-converted-space"> </span></b></span><span class="s4"> <span class="Apple-converted-space">        </span>//</span><span class="s1"> Process the ith row</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>41 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>System.out.printf(</span><span class="s10">"%15s"</span><span class="s1">, countries[i]);</span></p>
+<p class="p5"><span class="s8"><b><span class="Apple-converted-space"> </span>42 <span class="Apple-converted-space"> </span></b></span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>43 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span></span><span class="s7">int</span><span class="s1"> total = </span><span class="s9">0</span><span class="s1">;<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s8"><b><span class="Apple-converted-space"> </span>44 <span class="Apple-converted-space"> </span></b></span></p>
+<p class="p8"><span class="s12"><b><span class="Apple-converted-space"> </span>45 <span class="Apple-converted-space"> </span></b></span><span class="s4"> <span class="Apple-converted-space">        </span>//</span><span class="s1"> Print each row element and update the row total</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>46 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span></span><span class="s7">for</span><span class="s1"> (</span><span class="s7">int</span><span class="s1"> j = </span><span class="s9">0</span><span class="s1">; j &lt; MEDALS; j++)</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>47 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>{</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>48<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>System.out.printf(</span><span class="s10">"%8d"</span><span class="s1">, counts[i][j]);</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>49<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">            </span>total = total + counts[i][j];</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>50 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>}</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>51<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">         </span></span></p>
+<p class="p8"><span class="s12"><b><span class="Apple-converted-space"> </span>52 <span class="Apple-converted-space"> </span></b></span><span class="s4"> <span class="Apple-converted-space">        </span>//</span><span class="s1"> Display the row total and print a new line</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>53 <span class="Apple-converted-space"> </span></b></span><span class="s1"> <span class="Apple-converted-space">        </span>System.out.printf(</span><span class="s10">"%8d\n"</span><span class="s1">, total);</span></p>
+<p class="p4"><span class="s6"><b><span class="Apple-converted-space"> </span>54<span class="Apple-converted-space">  </span></b></span><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p5"><span class="s8"><b><span class="Apple-converted-space"> </span>55 <span class="Apple-converted-space"> </span></b></span><span class="s2"> <span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><b><span class="Apple-converted-space"> </span>56<span class="Apple-converted-space">  </span></b></span><span class="s2">}</span></p>
+</body>
+</html>

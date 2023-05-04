@@ -1,6 +1,8 @@
 package w23.lab4_partial_solution.q2;
 
-import test.TestHelper;
+//import test.TestHelper;
+
+import w23.lab4_partial_solution.test.TestHelper;
 
 public class TableTester {
 

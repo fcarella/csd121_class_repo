@@ -15,6 +15,7 @@ public class AppTester {
     private static void test_App_typicalUsageWorks() {
         // Simulate the user pressing '2' then 'enter' then '3' then 'enter'
         TestHelper.setSystemIn("2%n3%n".formatted());  // Calling formatted() here converts %n to the system's line separator
+//        TestHelper.setSystemIn("10%n20%n40%nhello world%n".formatted());  // Calling formatted() here converts %n to the system's line separator
         TestHelper.redirectSystemOut();  // So that the program output can be captured below...
 
         App.main(null);  // Run the program by calling the main method
